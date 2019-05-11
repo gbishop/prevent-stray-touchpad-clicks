@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 '''
 Enable tap-to-click only after a period of touchpad activity.
-My goal is the prevent stray clicks.
+My goal is to prevent stray clicks.
 
 Uses /dev/input/eventN to watch for touchpad activity and
 gsettings to enable and disable tap-to-click.
